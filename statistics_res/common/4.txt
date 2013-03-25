@@ -1,0 +1,52 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/common/src/apache_common_collection_3.2.1.zip into /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [javac] Compiling 273 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 13 files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Compiling 194 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 195 files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [copy] Copied 1 empty directory to 1 empty directory under /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 2766 0.7071067811865475 org.apache.commons.collections.ExtendedProperties,combine(Lorg/apache/commons/collections/ExtendedProperties;)V,786/786
+     [java] 2765 0.7071067811865475 org.apache.commons.collections.ExtendedProperties,combine(Lorg/apache/commons/collections/ExtendedProperties;)V,784/784
+     [java] 2764 0.7071067811865475 org.apache.commons.collections.ExtendedProperties,combine(Lorg/apache/commons/collections/ExtendedProperties;)V,783/784
+     [java] 2763 0.7071067811865475 org.apache.commons.collections.ExtendedProperties,combine(Lorg/apache/commons/collections/ExtendedProperties;)V,783/783
+     [java] 2761 0.7071067811865475 org.apache.commons.collections.ExtendedProperties,combine(Lorg/apache/commons/collections/ExtendedProperties;)V,782/782
+     [java] 2762 0.5773502691896258 org.apache.commons.collections.ExtendedProperties,getKeys()Ljava/util/Iterator;,814/814
+     [java] 2702 0.5 org.apache.commons.collections.ExtendedProperties,getProperty(Ljava/lang/String;)Ljava/lang/Object;,611/611
+     [java] 2703 0.5 org.apache.commons.collections.ExtendedProperties,getProperty(Ljava/lang/String;)Ljava/lang/Object;,611/613
+     [java] 2629 0.5 org.apache.commons.collections.ExtendedProperties,unescape(Ljava/lang/String;)Ljava/lang/String;,313/309
+     [java] 2628 0.5 org.apache.commons.collections.ExtendedProperties,unescape(Ljava/lang/String;)Ljava/lang/String;,313/313
+     [java] 2627 0.5 org.apache.commons.collections.ExtendedProperties,unescape(Ljava/lang/String;)Ljava/lang/String;,312/312
+     [java] 2690 0.4472135954999579 org.apache.commons.collections.ExtendedProperties,clearProperty(Ljava/lang/String;)V,794/794
+     [java] 2692 0.4472135954999579 org.apache.commons.collections.ExtendedProperties,setProperty(Ljava/lang/String;Ljava/lang/Object;)V,725/725
+     [java] 2691 0.4472135954999579 org.apache.commons.collections.ExtendedProperties,setProperty(Ljava/lang/String;Ljava/lang/Object;)V,724/724
+     [java] 2689 0.4472135954999579 org.apache.commons.collections.ExtendedProperties,setProperty(Ljava/lang/String;Ljava/lang/Object;)V,723/723
+     [java] 2609 0.3779644730092272 org.apache.commons.collections.ExtendedProperties,unescape(Ljava/lang/String;)Ljava/lang/String;,310/310
+     [java] 2611 0.3779644730092272 org.apache.commons.collections.ExtendedProperties,unescape(Ljava/lang/String;)Ljava/lang/String;,311/312
+     [java] 2610 0.3779644730092272 org.apache.commons.collections.ExtendedProperties,unescape(Ljava/lang/String;)Ljava/lang/String;,310/311
+     [java] 17 0.31622776601683794 org.apache.commons.collections.ExtendedProperties,<init>()V,187/442
+     [java] 15 0.31622776601683794 org.apache.commons.collections.ExtendedProperties,<init>()V,168/168
+
+BUILD SUCCESSFUL
+Total time: 13 seconds

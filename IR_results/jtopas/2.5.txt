@@ -1,0 +1,59 @@
+Buildfile: /home/yjy/workspace/IR/jtopas/script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/test_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/docs
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/docs
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/jtopas/src/v2_f5.zip into /home/yjy/workspace/IR/jtopas/tmp/src
+    [javac] /home/yjy/workspace/IR/jtopas/script.xml:39: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 21 source files to /home/yjy/workspace/IR/jtopas/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/yjy/workspace/IR/jtopas/tmp/src/v2/src/de/susebox/java/util/AbstractTokenizer.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 31 files to /home/yjy/workspace/IR/jtopas/tmp/src_bin
+    [javac] /home/yjy/workspace/IR/jtopas/script.xml:50: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 16 source files to /home/yjy/workspace/IR/jtopas/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 38 files to /home/yjy/workspace/IR/jtopas/tmp/test_bin
+     [echo] Start to copy files for indexing 
+     [copy] Copying 52 files to /home/yjy/workspace/IR/jtopas/docs
+     [echo] Start to index files 
+     [java] Indexing to directory 'index'...
+     [java] adding docs/de/susebox/jtopas/KeywordHandler.java
+     [java] adding docs/de/susebox/jtopas/SequenceHandler.java
+     [java] adding docs/de/susebox/jtopas/InputStreamSource.java
+     [java] adding docs/de/susebox/jtopas/WhitespaceHandler.java
+     [java] adding docs/de/susebox/jtopas/SeparatorHandler.java
+     [java] adding docs/de/susebox/jtopas/PluginTokenizer.java
+     [java] adding docs/de/susebox/jtopas/Plugin.java
+     [java] adding docs/de/susebox/jtopas/TokenizerSource.java
+     [java] adding docs/de/susebox/java/io/ExtIOException.java
+     [java] adding docs/de/susebox/java/util/InputStreamTokenizer.java
+     [java] adding docs/de/susebox/java/util/AbstractTokenizer.java
+     [java] adding docs/de/susebox/java/util/TokenizerException.java
+     [java] adding docs/de/susebox/java/util/TokenizerProperty.java
+     [java] adding docs/de/susebox/java/util/Tokenizer.java
+     [java] adding docs/de/susebox/java/util/Token.java
+     [java] adding docs/de/susebox/java/lang/ExtIndexOutOfBoundsException.java
+     [java] adding docs/de/susebox/java/lang/ExceptionMessageFormatter.java
+     [java] adding docs/de/susebox/java/lang/ThrowableList.java
+     [java] adding docs/de/susebox/java/lang/ThrowableMessageFormatter.java
+     [java] adding docs/de/susebox/java/lang/ExtRuntimeException.java
+     [java] adding docs/de/susebox/java/lang/ExceptionList.java
+     [java] 982 total milliseconds
+
+BUILD SUCCESSFUL
+Total time: 6 seconds

@@ -1,0 +1,159 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/jtopas/src/v1_f9.zip into /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [javac] Compiling 19 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Note: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src/v1/src/de/susebox/java/util/AbstractTokenizer.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src/v1/src/de/susebox/java/util/AbstractTokenizer.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 14 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Compiling 15 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 37 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/traces/jtopas/f9/failed
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/traces/jtopas/f9/passed
+     [echo] About to invoke InsECTJ...
+     [java] Valid arguments are: [first|last]?[localvars]? for adding the probes at the first or the last instruction in each block
+     [java] THIS IS A TEST FAILURE: 
+     [java] null
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.lang.TestExceptionList.testWrappedException(TestExceptionList.java:165)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.teststats.runner.JTopasNNTestRunner.main(JTopasNNTestRunner.java:52)
+
+     [java] java.lang.NullPointerException
+     [java] THIS IS A TEST FAILURE: 
+     [java] null
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.TestExceptions.testWrappedException(TestExceptions.java:192)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.teststats.runner.JTopasNNTestRunner.main(JTopasNNTestRunner.java:52)
+
+     [java] java.lang.NullPointerException
+     [java] THIS IS A TEST FAILURE: 
+     [java] Formating failed. Expected "Class de.susebox.java.lang.ExtIndexOutOfBoundsException, reason "bad weather", user myself.", got "Class {0}, reason "{1}", user {2}.".
+     [java] junit.framework.AssertionFailedError: Formating failed. Expected "Class de.susebox.java.lang.ExtIndexOutOfBoundsException, reason "bad weather", user myself.", got "Class {0}, reason "{1}", user {2}.".
+     [java] 	at junit.framework.Assert.fail(Assert.java:50)
+     [java] 	at junit.framework.Assert.assertTrue(Assert.java:20)
+     [java] 	at de.susebox.TestExceptions.testMessageFormatting(TestExceptions.java:239)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.teststats.runner.JTopasNNTestRunner.main(JTopasNNTestRunner.java:52)
+
+     [java] junit.framework.AssertionFailedError: Formating failed. Expected "Class de.susebox.java.lang.ExtIndexOutOfBoundsException, reason "bad weather", user myself.", got "Class {0}, reason "{1}", user {2}.".
+     [java] 68961
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 577 0.8164965809277261 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/Exception;)V,22/22
+     [java] 582 0.8164965809277261 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/Exception;)V,23/23
+     [java] 581 0.8164965809277261 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,38/38
+     [java] 578 0.7745966692414834 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,34/34
+     [java] 579 0.7745966692414834 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,45/37
+     [java] 576 0.5773502691896258 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,-1/-1
+     [java] 580 0.5773502691896258 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,37/37
+     [java] 586 0.5773502691896258 de.susebox.java.lang.ExceptionMessageFormatter,<clinit>()V,136/136
+     [java] 589 0.5773502691896258 de.susebox.java.lang.ExtIndexOutOfBoundsException,isWrapperException()Z,13/13
+     [java] 569 0.5773502691896258 de.susebox.java.lang.ExtRuntimeException,getMessage()Ljava/lang/String;,-1/-1
+     [java] 675 0.5773502691896258 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/String;[Ljava/lang/Object;)V,29/29
+     [java] 674 0.5773502691896258 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/String;[Ljava/lang/Object;)V,28/28
+     [java] 590 0.5773502691896258 de.susebox.java.lang.ExtIndexOutOfBoundsException,nextException()Ljava/lang/Exception;,10/10
+     [java] 570 0.4082482904638631 de.susebox.java.lang.ExtRuntimeException,<init>(Ljava/lang/Exception;)V,122/122
+     [java] 574 0.4082482904638631 de.susebox.java.lang.ExtRuntimeException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,179/179
+     [java] 575 0.4082482904638631 de.susebox.java.lang.ExtRuntimeException,<init>(Ljava/lang/Exception;)V,123/123
+     [java] 595 0.3333333333333333 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,40/44
+     [java] 598 0.3333333333333333 de.susebox.java.lang.ExtIndexOutOfBoundsException,getFormat()Ljava/lang/String;,16/16
+     [java] 573 0.2886751345948129 de.susebox.java.lang.ExtRuntimeException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,178/178
+     [java] 585 0.2886751345948129 de.susebox.java.lang.ExtRuntimeException,getMessage()Ljava/lang/String;,201/201
+
+BUILD SUCCESSFUL
+Total time: 1 minute 21 seconds

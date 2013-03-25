@@ -1,0 +1,52 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/common/src/apache_common_collection_3.2.1.zip into /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [javac] Compiling 273 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 13 files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Compiling 194 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 195 files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [copy] Copied 1 empty directory to 1 empty directory under /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 977 0.7071067811865475 org.apache.commons.collections.list.AbstractListDecorator,subList(II)Ljava/util/List;,102/102
+     [java] 976 0.7071067811865475 org.apache.commons.collections.list.SetUniqueList,subList(II)Ljava/util/List;,274/274
+     [java] 972 0.5 org.apache.commons.collections.list.SetUniqueList,contains(Ljava/lang/Object;)Z,254/254
+     [java] 975 0.35355339059327373 org.apache.commons.collections.list.SetUniqueList,decorate(Ljava/util/List;)Lorg/apache/commons/collections/list/SetUniqueList;,78/78
+     [java] 973 0.31622776601683794 org.apache.commons.collections.list.SetUniqueList,decorate(Ljava/util/List;)Lorg/apache/commons/collections/list/SetUniqueList;,74/74
+     [java] 974 0.31622776601683794 org.apache.commons.collections.list.SetUniqueList,decorate(Ljava/util/List;)Lorg/apache/commons/collections/list/SetUniqueList;,77/77
+     [java] 930 0.19611613513818404 org.apache.commons.collections.list.SetUniqueList,add(Ljava/lang/Object;)Z,130/130
+     [java] 931 0.19611613513818404 org.apache.commons.collections.list.SetUniqueList,add(Ljava/lang/Object;)Z,130/133
+     [java] 932 0.19611613513818404 org.apache.commons.collections.list.SetUniqueList,add(Ljava/lang/Object;)Z,133/133
+     [java] 936 0.19611613513818404 org.apache.commons.collections.list.AbstractListDecorator,add(ILjava/lang/Object;)V,67/67
+     [java] 937 0.19611613513818404 org.apache.commons.collections.list.SetUniqueList,add(ILjava/lang/Object;)V,153/153
+     [java] 938 0.19611613513818404 org.apache.commons.collections.list.SetUniqueList,add(ILjava/lang/Object;)V,153/155
+     [java] 939 0.19611613513818404 org.apache.commons.collections.list.SetUniqueList,add(Ljava/lang/Object;)Z,136/136
+     [java] 933 0.19425717247145283 org.apache.commons.collections.list.SetUniqueList,add(ILjava/lang/Object;)V,151/151
+     [java] 934 0.19425717247145283 org.apache.commons.collections.list.SetUniqueList,add(ILjava/lang/Object;)V,152/152
+     [java] 935 0.19425717247145283 org.apache.commons.collections.list.AbstractListDecorator,add(ILjava/lang/Object;)V,66/66
+     [java] 908 0.17541160386140586 org.apache.commons.collections.list.SetUniqueList,<init>(Ljava/util/List;Ljava/util/Set;)V,100/100
+     [java] 907 0.17541160386140586 org.apache.commons.collections.list.SetUniqueList,<init>(Ljava/util/List;Ljava/util/Set;)V,99/99
+     [java] 909 0.17541160386140586 org.apache.commons.collections.list.SetUniqueList,<init>(Ljava/util/List;Ljava/util/Set;)V,103/104
+     [java] 758 0.11624763874381928 org.apache.commons.collections.list.AbstractListDecorator,getList()Ljava/util/List;,61/61
+
+BUILD SUCCESSFUL
+Total time: 8 seconds

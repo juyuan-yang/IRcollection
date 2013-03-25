@@ -1,0 +1,393 @@
+Buildfile: /home/yjy/workspace/IR/common/script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/common/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/common/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/common/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/common/tmp/test_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/common/docs
+    [mkdir] Created dir: /home/yjy/workspace/IR/common/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/common/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/common/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/common/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/common/docs
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/common/src/apache_common_collection_3.2.1.zip into /home/yjy/workspace/IR/common/tmp/src
+    [javac] /home/yjy/workspace/IR/common/script.xml:39: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 273 source files to /home/yjy/workspace/IR/common/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 13 files to /home/yjy/workspace/IR/common/tmp/src_bin
+    [javac] /home/yjy/workspace/IR/common/script.xml:50: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 194 source files to /home/yjy/workspace/IR/common/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 195 files to /home/yjy/workspace/IR/common/tmp/test_bin
+     [copy] Copied 1 empty directory to 1 empty directory under /home/yjy/workspace/IR/common/tmp/test_bin
+
+index:
+     [echo] Start to copy files for indexing 
+     [copy] Copying 286 files to /home/yjy/workspace/IR/common/docs
+     [echo] Start to index files 
+     [java] Indexing to directory 'index'...
+     [java] adding docs/org/apache/commons/collections/UnboundedFifoBuffer.java
+     [java] adding docs/org/apache/commons/collections/iterators/UnmodifiableOrderedMapIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/UniqueFilterIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/ListIteratorWrapper.java
+     [java] adding docs/org/apache/commons/collections/iterators/AbstractOrderedMapIteratorDecorator.java
+     [java] adding docs/org/apache/commons/collections/iterators/TransformIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/AbstractIteratorDecorator.java
+     [java] adding docs/org/apache/commons/collections/iterators/EnumerationIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/FilterIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/EmptyOrderedMapIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/ProxyIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/EmptyOrderedIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/LoopingListIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/FilterListIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/EmptyListIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/ReverseListIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/EmptyMapIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/IteratorEnumeration.java
+     [java] adding docs/org/apache/commons/collections/iterators/LoopingIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/AbstractMapIteratorDecorator.java
+     [java] adding docs/org/apache/commons/collections/iterators/SingletonListIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/AbstractEmptyIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/ObjectGraphIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/EntrySetMapIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/UnmodifiableMapIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/CollatingIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/AbstractListIteratorDecorator.java
+     [java] adding docs/org/apache/commons/collections/iterators/ProxyListIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/EmptyIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/UnmodifiableIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/ObjectArrayIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/ArrayIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/UnmodifiableListIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/ObjectArrayListIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/ArrayListIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/SingletonIterator.java
+     [java] adding docs/org/apache/commons/collections/iterators/IteratorChain.java
+     [java] adding docs/org/apache/commons/collections/MapUtils.java
+     [java] adding docs/org/apache/commons/collections/Transformer.java
+     [java] adding docs/org/apache/commons/collections/FastTreeMap.java
+     [java] adding docs/org/apache/commons/collections/CursorableLinkedList.java
+     [java] adding docs/org/apache/commons/collections/BoundedMap.java
+     [java] adding docs/org/apache/commons/collections/StaticBucketMap.java
+     [java] adding docs/org/apache/commons/collections/TransformerUtils.java
+     [java] adding docs/org/apache/commons/collections/BufferUnderflowException.java
+     [java] adding docs/org/apache/commons/collections/SequencedHashMap.java
+     [java] adding docs/org/apache/commons/collections/SynchronizedPriorityQueue.java
+     [java] adding docs/org/apache/commons/collections/comparators/ReverseComparator.java
+     [java] adding docs/org/apache/commons/collections/comparators/TransformingComparator.java
+     [java] adding docs/org/apache/commons/collections/comparators/NullComparator.java
+     [java] adding docs/org/apache/commons/collections/comparators/FixedOrderComparator.java
+     [java] adding docs/org/apache/commons/collections/comparators/ComparatorChain.java
+     [java] adding docs/org/apache/commons/collections/comparators/ComparableComparator.java
+     [java] adding docs/org/apache/commons/collections/comparators/BooleanComparator.java
+     [java] adding docs/org/apache/commons/collections/IteratorUtils.java
+     [java] adding docs/org/apache/commons/collections/ResettableListIterator.java
+     [java] adding docs/org/apache/commons/collections/BufferOverflowException.java
+     [java] adding docs/org/apache/commons/collections/SortedBag.java
+     [java] adding docs/org/apache/commons/collections/Buffer.java
+     [java] adding docs/org/apache/commons/collections/collection/AbstractSerializableCollectionDecorator.java
+     [java] adding docs/org/apache/commons/collections/collection/AbstractCollectionDecorator.java
+     [java] adding docs/org/apache/commons/collections/collection/UnmodifiableBoundedCollection.java
+     [java] adding docs/org/apache/commons/collections/collection/PredicatedCollection.java
+     [java] adding docs/org/apache/commons/collections/collection/TypedCollection.java
+     [java] adding docs/org/apache/commons/collections/collection/UnmodifiableCollection.java
+     [java] adding docs/org/apache/commons/collections/collection/SynchronizedCollection.java
+     [java] adding docs/org/apache/commons/collections/collection/TransformedCollection.java
+     [java] adding docs/org/apache/commons/collections/collection/CompositeCollection.java
+     [java] adding docs/org/apache/commons/collections/Closure.java
+     [java] adding docs/org/apache/commons/collections/MultiHashMap.java
+     [java] adding docs/org/apache/commons/collections/BufferUtils.java
+     [java] adding docs/org/apache/commons/collections/FactoryUtils.java
+     [java] adding docs/org/apache/commons/collections/FastHashMap.java
+     [java] adding docs/org/apache/commons/collections/Unmodifiable.java
+     [java] adding docs/org/apache/commons/collections/Bag.java
+     [java] adding docs/org/apache/commons/collections/CollectionUtils.java
+     [java] adding docs/org/apache/commons/collections/BidiMap.java
+     [java] adding docs/org/apache/commons/collections/HashBag.java
+     [java] adding docs/org/apache/commons/collections/TreeBag.java
+     [java] adding docs/org/apache/commons/collections/OrderedIterator.java
+     [java] adding docs/org/apache/commons/collections/ListUtils.java
+     [java] adding docs/org/apache/commons/collections/functors/StringValueTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/PredicateDecorator.java
+     [java] adding docs/org/apache/commons/collections/functors/ClosureTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/NotPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/ChainedTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/ChainedClosure.java
+     [java] adding docs/org/apache/commons/collections/functors/AnyPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/ExceptionPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/OnePredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/NonePredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/TruePredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/TransformerClosure.java
+     [java] adding docs/org/apache/commons/collections/functors/InstanceofPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/ConstantTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/IfClosure.java
+     [java] adding docs/org/apache/commons/collections/functors/AllPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/ExceptionClosure.java
+     [java] adding docs/org/apache/commons/collections/functors/InstantiateFactory.java
+     [java] adding docs/org/apache/commons/collections/functors/FactoryTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/NullIsExceptionPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/CloneTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/NullIsFalsePredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/WhileClosure.java
+     [java] adding docs/org/apache/commons/collections/functors/ExceptionTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/OrPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/InstantiateTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/FunctorUtils.java
+     [java] adding docs/org/apache/commons/collections/functors/AndPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/SwitchClosure.java
+     [java] adding docs/org/apache/commons/collections/functors/FalsePredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/UniquePredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/InvokerTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/MapTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/PredicateTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/NullIsTruePredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/PrototypeFactory.java
+     [java] adding docs/org/apache/commons/collections/functors/TransformerPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/EqualPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/SwitchTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/NullPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/TransformedPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/NotNullPredicate.java
+     [java] adding docs/org/apache/commons/collections/functors/ExceptionFactory.java
+     [java] adding docs/org/apache/commons/collections/functors/NOPClosure.java
+     [java] adding docs/org/apache/commons/collections/functors/NOPTransformer.java
+     [java] adding docs/org/apache/commons/collections/functors/ForClosure.java
+     [java] adding docs/org/apache/commons/collections/functors/ConstantFactory.java
+     [java] adding docs/org/apache/commons/collections/functors/IdentityPredicate.java
+     [java] adding docs/org/apache/commons/collections/BinaryHeap.java
+     [java] adding docs/org/apache/commons/collections/ComparatorUtils.java
+     [java] adding docs/org/apache/commons/collections/ReferenceMap.java
+     [java] adding docs/org/apache/commons/collections/KeyValue.java
+     [java] adding docs/org/apache/commons/collections/buffer/UnboundedFifoBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/CircularFifoBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/TypedBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/BlockingBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/SynchronizedBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/PredicatedBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/BoundedBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/PriorityBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/UnmodifiableBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/AbstractBufferDecorator.java
+     [java] adding docs/org/apache/commons/collections/buffer/TransformedBuffer.java
+     [java] adding docs/org/apache/commons/collections/buffer/BoundedFifoBuffer.java
+     [java] adding docs/org/apache/commons/collections/BoundedCollection.java
+     [java] adding docs/org/apache/commons/collections/PriorityQueue.java
+     [java] adding docs/org/apache/commons/collections/ProxyMap.java
+     [java] adding docs/org/apache/commons/collections/BagUtils.java
+     [java] adding docs/org/apache/commons/collections/ClosureUtils.java
+     [java] adding docs/org/apache/commons/collections/MapIterator.java
+     [java] adding docs/org/apache/commons/collections/OrderedBidiMap.java
+     [java] adding docs/org/apache/commons/collections/bag/UnmodifiableBag.java
+     [java] adding docs/org/apache/commons/collections/bag/PredicatedBag.java
+     [java] adding docs/org/apache/commons/collections/bag/UnmodifiableSortedBag.java
+     [java] adding docs/org/apache/commons/collections/bag/AbstractMapBag.java
+     [java] adding docs/org/apache/commons/collections/bag/PredicatedSortedBag.java
+     [java] adding docs/org/apache/commons/collections/bag/TransformedSortedBag.java
+     [java] adding docs/org/apache/commons/collections/bag/TypedBag.java
+     [java] adding docs/org/apache/commons/collections/bag/HashBag.java
+     [java] adding docs/org/apache/commons/collections/bag/TreeBag.java
+     [java] adding docs/org/apache/commons/collections/bag/AbstractBagDecorator.java
+     [java] adding docs/org/apache/commons/collections/bag/AbstractSortedBagDecorator.java
+     [java] adding docs/org/apache/commons/collections/bag/TransformedBag.java
+     [java] adding docs/org/apache/commons/collections/bag/TypedSortedBag.java
+     [java] adding docs/org/apache/commons/collections/bag/SynchronizedSortedBag.java
+     [java] adding docs/org/apache/commons/collections/bag/SynchronizedBag.java
+     [java] adding docs/org/apache/commons/collections/SortedBidiMap.java
+     [java] adding docs/org/apache/commons/collections/ExtendedProperties.java
+     [java] adding docs/org/apache/commons/collections/list/UnmodifiableList.java
+     [java] adding docs/org/apache/commons/collections/list/GrowthList.java
+     [java] adding docs/org/apache/commons/collections/list/CursorableLinkedList.java
+     [java] adding docs/org/apache/commons/collections/list/FixedSizeList.java
+     [java] adding docs/org/apache/commons/collections/list/SetUniqueList.java
+     [java] adding docs/org/apache/commons/collections/list/SynchronizedList.java
+     [java] adding docs/org/apache/commons/collections/list/PredicatedList.java
+     [java] adding docs/org/apache/commons/collections/list/TransformedList.java
+     [java] adding docs/org/apache/commons/collections/list/NodeCachingLinkedList.java
+     [java] adding docs/org/apache/commons/collections/list/LazyList.java
+     [java] adding docs/org/apache/commons/collections/list/TreeList.java
+     [java] adding docs/org/apache/commons/collections/list/AbstractListDecorator.java
+     [java] adding docs/org/apache/commons/collections/list/AbstractLinkedList.java
+     [java] adding docs/org/apache/commons/collections/list/AbstractSerializableListDecorator.java
+     [java] adding docs/org/apache/commons/collections/list/TypedList.java
+     [java] adding docs/org/apache/commons/collections/IterableMap.java
+     [java] adding docs/org/apache/commons/collections/set/CompositeSet.java
+     [java] adding docs/org/apache/commons/collections/set/ListOrderedSet.java
+     [java] adding docs/org/apache/commons/collections/set/AbstractSetDecorator.java
+     [java] adding docs/org/apache/commons/collections/set/PredicatedSet.java
+     [java] adding docs/org/apache/commons/collections/set/TransformedSortedSet.java
+     [java] adding docs/org/apache/commons/collections/set/MapBackedSet.java
+     [java] adding docs/org/apache/commons/collections/set/PredicatedSortedSet.java
+     [java] adding docs/org/apache/commons/collections/set/SynchronizedSortedSet.java
+     [java] adding docs/org/apache/commons/collections/set/UnmodifiableSortedSet.java
+     [java] adding docs/org/apache/commons/collections/set/AbstractSortedSetDecorator.java
+     [java] adding docs/org/apache/commons/collections/set/TypedSortedSet.java
+     [java] adding docs/org/apache/commons/collections/set/SynchronizedSet.java
+     [java] adding docs/org/apache/commons/collections/set/TransformedSet.java
+     [java] adding docs/org/apache/commons/collections/set/TypedSet.java
+     [java] adding docs/org/apache/commons/collections/set/UnmodifiableSet.java
+     [java] adding docs/org/apache/commons/collections/set/AbstractSerializableSetDecorator.java
+     [java] adding docs/org/apache/commons/collections/ArrayStack.java
+     [java] adding docs/org/apache/commons/collections/DefaultMapEntry.java
+     [java] adding docs/org/apache/commons/collections/Factory.java
+     [java] adding docs/org/apache/commons/collections/bidimap/AbstractOrderedBidiMapDecorator.java
+     [java] adding docs/org/apache/commons/collections/bidimap/UnmodifiableSortedBidiMap.java
+     [java] adding docs/org/apache/commons/collections/bidimap/AbstractDualBidiMap.java
+     [java] adding docs/org/apache/commons/collections/bidimap/TreeBidiMap.java
+     [java] adding docs/org/apache/commons/collections/bidimap/AbstractSortedBidiMapDecorator.java
+     [java] adding docs/org/apache/commons/collections/bidimap/DualTreeBidiMap.java
+     [java] adding docs/org/apache/commons/collections/bidimap/UnmodifiableBidiMap.java
+     [java] adding docs/org/apache/commons/collections/bidimap/AbstractBidiMapDecorator.java
+     [java] adding docs/org/apache/commons/collections/bidimap/DualHashBidiMap.java
+     [java] adding docs/org/apache/commons/collections/bidimap/UnmodifiableOrderedBidiMap.java
+     [java] adding docs/org/apache/commons/collections/MultiMap.java
+     [java] adding docs/org/apache/commons/collections/Predicate.java
+     [java] adding docs/org/apache/commons/collections/keyvalue/AbstractMapEntryDecorator.java
+     [java] adding docs/org/apache/commons/collections/keyvalue/DefaultKeyValue.java
+     [java] adding docs/org/apache/commons/collections/keyvalue/AbstractMapEntry.java
+     [java] adding docs/org/apache/commons/collections/keyvalue/AbstractKeyValue.java
+     [java] adding docs/org/apache/commons/collections/keyvalue/MultiKey.java
+     [java] adding docs/org/apache/commons/collections/keyvalue/UnmodifiableMapEntry.java
+     [java] adding docs/org/apache/commons/collections/keyvalue/DefaultMapEntry.java
+     [java] adding docs/org/apache/commons/collections/keyvalue/TiedMapEntry.java
+     [java] adding docs/org/apache/commons/collections/PredicateUtils.java
+     [java] adding docs/org/apache/commons/collections/LRUMap.java
+     [java] adding docs/org/apache/commons/collections/ResettableIterator.java
+     [java] adding docs/org/apache/commons/collections/map/DefaultedMap.java
+     [java] adding docs/org/apache/commons/collections/map/AbstractSortedMapDecorator.java
+     [java] adding docs/org/apache/commons/collections/map/Flat3Map.java
+     [java] adding docs/org/apache/commons/collections/map/LinkedMap.java
+     [java] adding docs/org/apache/commons/collections/map/UnmodifiableMap.java
+     [java] adding docs/org/apache/commons/collections/map/StaticBucketMap.java
+     [java] adding docs/org/apache/commons/collections/map/UnmodifiableSortedMap.java
+     [java] adding docs/org/apache/commons/collections/map/LazyMap.java
+     [java] adding docs/org/apache/commons/collections/map/TransformedSortedMap.java
+     [java] adding docs/org/apache/commons/collections/map/ReferenceIdentityMap.java
+     [java] adding docs/org/apache/commons/collections/map/AbstractReferenceMap.java
+     [java] adding docs/org/apache/commons/collections/map/TransformedMap.java
+     [java] adding docs/org/apache/commons/collections/map/TypedMap.java
+     [java] adding docs/org/apache/commons/collections/map/AbstractMapDecorator.java
+     [java] adding docs/org/apache/commons/collections/map/IdentityMap.java
+     [java] adding docs/org/apache/commons/collections/map/LazySortedMap.java
+     [java] adding docs/org/apache/commons/collections/map/FixedSizeSortedMap.java
+     [java] adding docs/org/apache/commons/collections/map/HashedMap.java
+     [java] adding docs/org/apache/commons/collections/map/ReferenceMap.java
+     [java] adding docs/org/apache/commons/collections/map/TypedSortedMap.java
+     [java] adding docs/org/apache/commons/collections/map/AbstractInputCheckedMapDecorator.java
+     [java] adding docs/org/apache/commons/collections/map/FixedSizeMap.java
+     [java] adding docs/org/apache/commons/collections/map/AbstractOrderedMapDecorator.java
+     [java] adding docs/org/apache/commons/collections/map/SingletonMap.java
+     [java] adding docs/org/apache/commons/collections/map/CompositeMap.java
+     [java] adding docs/org/apache/commons/collections/map/AbstractLinkedMap.java
+     [java] adding docs/org/apache/commons/collections/map/AbstractHashedMap.java
+     [java] adding docs/org/apache/commons/collections/map/PredicatedSortedMap.java
+     [java] adding docs/org/apache/commons/collections/map/LRUMap.java
+     [java] adding docs/org/apache/commons/collections/map/MultiValueMap.java
+     [java] adding docs/org/apache/commons/collections/map/CaseInsensitiveMap.java
+     [java] adding docs/org/apache/commons/collections/map/PredicatedMap.java
+     [java] adding docs/org/apache/commons/collections/map/ListOrderedMap.java
+     [java] adding docs/org/apache/commons/collections/map/MultiKeyMap.java
+     [java] adding docs/org/apache/commons/collections/map/UnmodifiableEntrySet.java
+     [java] adding docs/org/apache/commons/collections/map/UnmodifiableOrderedMap.java
+     [java] adding docs/org/apache/commons/collections/FunctorException.java
+     [java] adding docs/org/apache/commons/collections/DefaultMapBag.java
+     [java] adding docs/org/apache/commons/collections/SetUtils.java
+     [java] adding docs/org/apache/commons/collections/BeanMap.java
+     [java] adding docs/org/apache/commons/collections/EnumerationUtils.java
+     [java] adding docs/org/apache/commons/collections/OrderedMapIterator.java
+     [java] adding docs/org/apache/commons/collections/OrderedMap.java
+     [java] adding docs/org/apache/commons/collections/FastArrayList.java
+     [java] adding docs/org/apache/commons/collections/DoubleOrderedMap.java
+     [java] adding docs/org/apache/commons/collections/BoundedFifoBuffer.java
+     [java] 1817 total milliseconds
+     [java] A new failure starts. No. 1:
+     [java] junit.framework.AssertionFailedError: expected:<[a, a, b, b]> but was:<[a, b]>
+     [java] 	at junit.framework.Assert.fail(Assert.java:50)
+     [java] 	at junit.framework.Assert.failNotEquals(Assert.java:287)
+     [java] 	at junit.framework.Assert.assertEquals(Assert.java:67)
+     [java] 	at junit.framework.Assert.assertEquals(Assert.java:74)
+     [java] 	at org.apache.commons.collections.TestListUtils.testIntersectionOrderInsensitivity_1(TestListUtils.java:189)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: org.apache.commons.collections.TestListUtils
+     [java] Method name: testIntersectionOrderInsensitivity_1
+     [java] expected:<[a, a, b, b]> but was:<[a, b]>
+     [java] testIntersectionOrderInsensitivity_1(org.apache.commons.collections.TestListUtils)
+     [java] 
+     [java] Original string is: junit.framework.AssertionFailedError: expected:<[a, a, b, b]> but was:<[a, b]>
+     [java] Processed string is: junit.framework.AssertionFailedError  expected <(a, a, b, b)> but was <(a, b)>
+     [java] Searching for: junit.framework.assertionfailederror expected (b b) (b)
+     [java] doc=270 score=0.2534584 name=FastArrayList.java
+     [java] doc=75 score=0.1790328 name=CollectionUtils.java
+     [java] doc=76 score=0.15991873 name=BidiMap.java
+     [java] doc=168 score=0.15519825 name=ExtendedProperties.java
+     [java] doc=47 score=0.13569553 name=ReverseComparator.java
+     [java] doc=171 score=0.11079493 name=CursorableLinkedList.java
+     [java] doc=25 score=0.10445847 name=CollatingIterator.java
+     [java] doc=129 score=0.095951244 name=BinaryHeap.java
+     [java] doc=140 score=0.095951244 name=PriorityBuffer.java
+     [java] doc=33 score=0.092329115 name=ObjectArrayListIterator.java
+     [java] doc=34 score=0.092329115 name=ArrayListIterator.java
+     [java] doc=177 score=0.092329115 name=NodeCachingLinkedList.java
+     [java] doc=214 score=0.092329115 name=MultiMap.java
+     [java] doc=36 score=0.09046369 name=IteratorChain.java
+     [java] doc=232 score=0.07834385 name=StaticBucketMap.java
+     [java] doc=70 score=0.07386329 name=BufferUtils.java
+     [java] doc=74 score=0.07386329 name=Bag.java
+     [java] doc=144 score=0.07386329 name=BoundedFifoBuffer.java
+     [java] doc=220 score=0.07386329 name=MultiKey.java
+     [java] doc=69 score=0.06463038 name=MultiHashMap.java
+     [java] doc=42 score=0.055397466 name=StaticBucketMap.java
+     [java] doc=80 score=0.055397466 name=ListUtils.java
+     [java] doc=207 score=0.047975622 name=TreeBidiMap.java
+     [java] doc=266 score=0.046164557 name=BeanMap.java
+     [java] doc=265 score=0.045700584 name=SetUtils.java
+     [java] doc=54 score=0.045231845 name=IteratorUtils.java
+     [java] doc=40 score=0.036931645 name=CursorableLinkedList.java
+     [java] doc=39 score=0.023122847 name=FastTreeMap.java
+     [java] doc=72 score=0.023122847 name=FastHashMap.java
+     [java] doc=15 score=0.020681703 name=ReverseListIterator.java
+     [java] doc=12 score=0.019498896 name=LoopingListIterator.java
+     [java] doc=179 score=0.01218681 name=TreeList.java
+     [java] doc=181 score=0.01218681 name=AbstractLinkedList.java
+     [java] doc=252 score=0.010340852 name=AbstractLinkedMap.java
+     [java] doc=45 score=0.009749448 name=SequencedHashMap.java
+     [java] doc=253 score=0.006893901 name=AbstractHashedMap.java
+
+BUILD SUCCESSFUL
+Total time: 13 seconds

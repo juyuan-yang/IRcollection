@@ -1,0 +1,112 @@
+Buildfile: /home/yjy/workspace/IR/jtopas/script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/test_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/docs
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/docs
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/jtopas/src/v1_f6.zip into /home/yjy/workspace/IR/jtopas/tmp/src
+    [javac] /home/yjy/workspace/IR/jtopas/script.xml:39: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 19 source files to /home/yjy/workspace/IR/jtopas/tmp/src_bin
+    [javac] Note: /home/yjy/workspace/IR/jtopas/tmp/src/v1/src/de/susebox/java/util/AbstractTokenizer.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 13 files to /home/yjy/workspace/IR/jtopas/tmp/src_bin
+    [javac] /home/yjy/workspace/IR/jtopas/script.xml:50: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 15 source files to /home/yjy/workspace/IR/jtopas/tmp/test_bin
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 37 files to /home/yjy/workspace/IR/jtopas/tmp/test_bin
+     [echo] Start to copy files for indexing 
+     [copy] Copying 32 files to /home/yjy/workspace/IR/jtopas/docs
+     [echo] Start to index files 
+     [java] Indexing to directory 'index'...
+     [java] adding docs/de/susebox/jtopas/KeywordHandler.java
+     [java] adding docs/de/susebox/jtopas/SequenceHandler.java
+     [java] adding docs/de/susebox/jtopas/InputStreamSource.java
+     [java] adding docs/de/susebox/jtopas/WhitespaceHandler.java
+     [java] adding docs/de/susebox/jtopas/SeparatorHandler.java
+     [java] adding docs/de/susebox/jtopas/PluginTokenizer.java
+     [java] adding docs/de/susebox/jtopas/Plugin.java
+     [java] adding docs/de/susebox/jtopas/TokenizerSource.java
+     [java] adding docs/de/susebox/java/io/ExtIOException.java
+     [java] adding docs/de/susebox/java/util/InputStreamTokenizer.java
+     [java] adding docs/de/susebox/java/util/AbstractTokenizer.java
+     [java] adding docs/de/susebox/java/util/TokenizerException.java
+     [java] adding docs/de/susebox/java/util/TokenizerProperty.java
+     [java] adding docs/de/susebox/java/util/Tokenizer.java
+     [java] adding docs/de/susebox/java/util/Token.java
+     [java] adding docs/de/susebox/java/lang/ExtIndexOutOfBoundsException.java
+     [java] adding docs/de/susebox/java/lang/ExceptionMessageFormatter.java
+     [java] adding docs/de/susebox/java/lang/ExtRuntimeException.java
+     [java] adding docs/de/susebox/java/lang/ExceptionList.java
+     [java] 955 total milliseconds
+     [java] A new failure starts. No. 1:
+     [java] junit.framework.AssertionFailedError: Expected keyword after @ sign in javadoc comment, but found "AbstractTokenizer
+     [java] 	at junit.framework.Assert.fail(Assert.java:50)
+     [java] 	at junit.framework.Assert.assertTrue(Assert.java:20)
+     [java] 	at de.susebox.java.util.TestEmbeddedTokenizer.testJavaTokenizer(TestEmbeddedTokenizer.java:276)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestEmbeddedTokenizer
+     [java] Method name: testJavaTokenizer
+     [java] Expected keyword after @ sign in javadoc comment, but found "AbstractTokenizer
+     [java] testJavaTokenizer(de.susebox.java.util.TestEmbeddedTokenizer)
+     [java] 
+     [java] Original string is: junit.framework.AssertionFailedError: Expected keyword after @ sign in javadoc comment, but found "AbstractTokenizer
+     [java] Processed string is: junit.framework.AssertionFailedError  Expected keyword after @ sign in javadoc comment, but found  AbstractTokenizer
+     [java] Searching for: junit.framework.assertionfailederror expected keyword after sign javadoc comment found abstracttokenizer
+     [java] Get: 13 results
+     [java] doc=13 score=0.10252074 name=Tokenizer.java
+     [java] doc=12 score=0.053475406 name=TokenizerProperty.java
+     [java] doc=1 score=0.050993346 name=SequenceHandler.java
+     [java] doc=14 score=0.04275722 name=Token.java
+     [java] doc=5 score=0.021908855 name=PluginTokenizer.java
+     [java] doc=10 score=0.015255597 name=AbstractTokenizer.java
+     [java] doc=18 score=0.008675368 name=ExceptionList.java
+     [java] doc=0 score=0.006420068 name=KeywordHandler.java
+     [java] doc=9 score=0.004655406 name=InputStreamTokenizer.java
+     [java] doc=8 score=0.0013540598 name=ExtIOException.java
+     [java] doc=11 score=0.0013540598 name=TokenizerException.java
+     [java] doc=15 score=0.0013540598 name=ExtIndexOutOfBoundsException.java
+     [java] doc=17 score=0.0013540598 name=ExtRuntimeException.java
+
+BUILD SUCCESSFUL
+Total time: 6 seconds

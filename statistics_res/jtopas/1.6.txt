@@ -1,0 +1,91 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/jtopas/src/v1_f6.zip into /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [javac] Compiling 19 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Note: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src/v1/src/de/susebox/java/util/AbstractTokenizer.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 13 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Compiling 15 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 37 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/traces/jtopas/f6/failed
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/traces/jtopas/f6/passed
+     [echo] About to invoke InsECTJ...
+     [java] Valid arguments are: [first|last]?[localvars]? for adding the probes at the first or the last instruction in each block
+     [java] THIS IS A TEST FAILURE: 
+     [java] Expected keyword after @ sign in javadoc comment, but found "AbstractTokenizer
+     [java] junit.framework.AssertionFailedError: Expected keyword after @ sign in javadoc comment, but found "AbstractTokenizer
+     [java] 	at junit.framework.Assert.fail(Assert.java:50)
+     [java] 	at junit.framework.Assert.assertTrue(Assert.java:20)
+     [java] 	at de.susebox.java.util.TestEmbeddedTokenizer.testJavaTokenizer(TestEmbeddedTokenizer.java:276)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.teststats.runner.JTopasNNTestRunner.main(JTopasNNTestRunner.java:52)
+
+     [java] junit.framework.AssertionFailedError: Expected keyword after @ sign in javadoc comment, but found "AbstractTokenizer
+     [java] 69085
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 563 1.0 de.susebox.java.util.AbstractTokenizer,switchTo(Lde/susebox/java/util/AbstractTokenizer;)V,679/679
+     [java] 564 1.0 de.susebox.java.util.AbstractTokenizer,switchTo(Lde/susebox/java/util/AbstractTokenizer;)V,682/687
+     [java] 557 0.5773502691896258 de.susebox.java.util.AbstractTokenizer,current()Ljava/lang/String;,545/545
+     [java] 558 0.5 de.susebox.java.util.AbstractTokenizer,addTokenizer(Lde/susebox/java/util/AbstractTokenizer;)V,662/664
+     [java] 559 0.5 de.susebox.java.util.AbstractTokenizer,addTokenizer(Lde/susebox/java/util/AbstractTokenizer;)V,667/671
+     [java] 560 0.5 de.susebox.java.util.AbstractTokenizer,addTokenizer(Lde/susebox/java/util/AbstractTokenizer;)V,671/672
+     [java] 562 0.5 de.susebox.java.util.AbstractTokenizer,synchronizeAll(I)V,889/891
+     [java] 281 0.2581988897471611 de.susebox.java.util.SortedArray,addSpecialSequence(Lde/susebox/java/util/TokenizerProperty;)V,1489/1489
+     [java] 282 0.2581988897471611 de.susebox.java.util.SortedArray,addSpecialSequence(Lde/susebox/java/util/TokenizerProperty;)V,1489/1491
+     [java] 280 0.25 de.susebox.java.util.AbstractTokenizer,addLineComment(Ljava/lang/String;Ljava/lang/Object;)V,162/162
+     [java] 284 0.25 de.susebox.java.util.AbstractTokenizer,addLineComment(Ljava/lang/String;)V,157/157
+     [java] 283 0.25 de.susebox.java.util.AbstractTokenizer,addLineComment(Ljava/lang/String;Ljava/lang/Object;)V,163/163
+     [java] 279 0.25 de.susebox.java.util.AbstractTokenizer,addLineComment(Ljava/lang/String;)V,156/156
+     [java] 247 0.25 de.susebox.java.util.AbstractTokenizer,addKeyword(Ljava/lang/String;)V,333/333
+     [java] 237 0.25 de.susebox.java.util.AbstractTokenizer,addKeyword(Ljava/lang/String;)V,332/332
+     [java] 114 0.24253562503633297 de.susebox.java.util.AbstractTokenizer,addLineComment(Ljava/lang/String;Ljava/lang/Object;I)V,168/168
+     [java] 118 0.24253562503633297 de.susebox.java.util.AbstractTokenizer,addLineComment(Ljava/lang/String;Ljava/lang/Object;I)V,172/172
+     [java] 138 0.24253562503633297 de.susebox.java.util.SortedArray,addSpecialSequence(Lde/susebox/java/util/TokenizerProperty;)V,1501/1502
+     [java] 137 0.24253562503633297 de.susebox.java.util.SortedArray,addSpecialSequence(Lde/susebox/java/util/TokenizerProperty;)V,1501/1501
+     [java] 501 0.23570226039551587 de.susebox.java.util.AbstractTokenizer,isKeyword(II)Lde/susebox/java/util/TokenizerProperty;,781/785
+
+BUILD SUCCESSFUL
+Total time: 1 minute 21 seconds

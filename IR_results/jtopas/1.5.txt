@@ -1,0 +1,899 @@
+Buildfile: /home/yjy/workspace/IR/jtopas/script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/tmp/test_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/jtopas/docs
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/jtopas/docs
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/jtopas/src/v1_f5.zip into /home/yjy/workspace/IR/jtopas/tmp/src
+    [javac] /home/yjy/workspace/IR/jtopas/script.xml:39: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 19 source files to /home/yjy/workspace/IR/jtopas/tmp/src_bin
+    [javac] Note: /home/yjy/workspace/IR/jtopas/tmp/src/v1/src/de/susebox/java/util/AbstractTokenizer.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 14 files to /home/yjy/workspace/IR/jtopas/tmp/src_bin
+    [javac] /home/yjy/workspace/IR/jtopas/script.xml:50: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 15 source files to /home/yjy/workspace/IR/jtopas/tmp/test_bin
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 37 files to /home/yjy/workspace/IR/jtopas/tmp/test_bin
+     [echo] Start to copy files for indexing 
+     [copy] Copying 33 files to /home/yjy/workspace/IR/jtopas/docs
+     [echo] Start to index files 
+     [java] Indexing to directory 'index'...
+     [java] adding docs/de/susebox/jtopas/KeywordHandler.java
+     [java] adding docs/de/susebox/jtopas/SequenceHandler.java
+     [java] adding docs/de/susebox/jtopas/InputStreamSource.java
+     [java] adding docs/de/susebox/jtopas/WhitespaceHandler.java
+     [java] adding docs/de/susebox/jtopas/SeparatorHandler.java
+     [java] adding docs/de/susebox/jtopas/PluginTokenizer.java
+     [java] adding docs/de/susebox/jtopas/Plugin.java
+     [java] adding docs/de/susebox/jtopas/TokenizerSource.java
+     [java] adding docs/de/susebox/java/io/ExtIOException.java
+     [java] adding docs/de/susebox/java/util/InputStreamTokenizer.java
+     [java] adding docs/de/susebox/java/util/AbstractTokenizer.java
+     [java] adding docs/de/susebox/java/util/TokenizerException.java
+     [java] adding docs/de/susebox/java/util/TokenizerProperty.java
+     [java] adding docs/de/susebox/java/util/Tokenizer.java
+     [java] adding docs/de/susebox/java/util/Token.java
+     [java] adding docs/de/susebox/java/lang/ExtIndexOutOfBoundsException.java
+     [java] adding docs/de/susebox/java/lang/ExceptionMessageFormatter.java
+     [java] adding docs/de/susebox/java/lang/ExtRuntimeException.java
+     [java] adding docs/de/susebox/java/lang/ExceptionList.java
+     [java] 1014 total milliseconds
+     [java] A new failure starts. No. 1:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 2:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 3:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 4:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 5:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 6:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 7:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 8:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 9:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 10:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 11:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 12:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 13:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 14:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestInputStreamTokenizer.testLinkParsing(TestInputStreamTokenizer.java:222)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestInputStreamTokenizer
+     [java] Method name: testLinkParsing
+     [java] null
+     [java] testLinkParsing(de.susebox.java.util.TestInputStreamTokenizer)
+     [java] 
+     [java] A new failure starts. No. 15:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestEmbeddedTokenizer.testEmbeddedTokenizer(TestEmbeddedTokenizer.java:341)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestEmbeddedTokenizer
+     [java] Method name: testEmbeddedTokenizer
+     [java] null
+     [java] testEmbeddedTokenizer(de.susebox.java.util.TestEmbeddedTokenizer)
+     [java] 
+     [java] A new failure starts. No. 16:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestEmbeddedTokenizer.testEmbeddedTokenizer(TestEmbeddedTokenizer.java:341)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestEmbeddedTokenizer
+     [java] Method name: testEmbeddedTokenizer
+     [java] null
+     [java] testEmbeddedTokenizer(de.susebox.java.util.TestEmbeddedTokenizer)
+     [java] 
+     [java] A new failure starts. No. 17:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestEmbeddedTokenizer.testEmbeddedTokenizer(TestEmbeddedTokenizer.java:348)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestEmbeddedTokenizer
+     [java] Method name: testEmbeddedTokenizer
+     [java] null
+     [java] testEmbeddedTokenizer(de.susebox.java.util.TestEmbeddedTokenizer)
+     [java] 
+     [java] A new failure starts. No. 18:
+     [java] java.lang.NullPointerException
+     [java] 	at de.susebox.java.util.AbstractTokenizer.isKeyword(AbstractTokenizer.java:779)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.test4Normal(AbstractTokenizer.java:913)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.nextToken(AbstractTokenizer.java:465)
+     [java] 	at de.susebox.java.util.TestEmbeddedTokenizer.testJavaTokenizer(TestEmbeddedTokenizer.java:261)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.JunitRunner.main(JunitRunner.java:30)
+     [java] 
+     [java] Class name: de.susebox.java.util.TestEmbeddedTokenizer
+     [java] Method name: testJavaTokenizer
+     [java] null
+     [java] testJavaTokenizer(de.susebox.java.util.TestEmbeddedTokenizer)
+     [java] 
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+     [java] Original string is: java.lang.NullPointerException
+     [java] Processed string is: java.lang.NullPointerException
+     [java] Searching for: java.lang.nullpointerexception
+     [java] Get: 0 results
+
+BUILD SUCCESSFUL
+Total time: 6 seconds

@@ -1,0 +1,52 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/common/src/apache_common_collection_3.2.1.zip into /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [javac] Compiling 273 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 13 files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Compiling 194 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 195 files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [copy] Copied 1 empty directory to 1 empty directory under /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 2800 1.0 org.apache.commons.collections.map.AbstractHashedMap,get(Ljava/lang/Object;)Ljava/lang/Object;,190/190
+     [java] 2788 1.0 org.apache.commons.collections.map.AbstractHashedMap,checkCapacity()V,588/588
+     [java] 2787 1.0 org.apache.commons.collections.map.AbstractHashedMap,addMapping(IILjava/lang/Object;Ljava/lang/Object;)V,495/496
+     [java] 2789 1.0 org.apache.commons.collections.map.AbstractHashedMap,checkCapacity()V,594/594
+     [java] 2784 1.0 org.apache.commons.collections.map.AbstractHashedMap.HashEntry,<init>(Lorg/apache/commons/collections/map/AbstractHashedMap$HashEntry;ILjava/lang/Object;Ljava/lang/Object;)V,1034/1038
+     [java] 2783 1.0 org.apache.commons.collections.map.AbstractHashedMap.HashEntry,<init>(Lorg/apache/commons/collections/map/AbstractHashedMap$HashEntry;ILjava/lang/Object;Ljava/lang/Object;)V,1033/1033
+     [java] 2786 1.0 org.apache.commons.collections.map.AbstractHashedMap,addEntry(Lorg/apache/commons/collections/map/AbstractHashedMap$HashEntry;I)V,526/527
+     [java] 2785 1.0 org.apache.commons.collections.map.AbstractHashedMap,addMapping(IILjava/lang/Object;Ljava/lang/Object;)V,493/494
+     [java] 2790 1.0 org.apache.commons.collections.map.AbstractHashedMap,addMapping(IILjava/lang/Object;Ljava/lang/Object;)V,497/497
+     [java] 2791 1.0 org.apache.commons.collections.map.AbstractHashedMap,put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,285/285
+     [java] 2792 1.0 org.apache.commons.collections.map.AbstractHashedMap,get(Ljava/lang/Object;)Ljava/lang/Object;,181/181
+     [java] 2793 1.0 org.apache.commons.collections.map.AbstractHashedMap,get(Ljava/lang/Object;)Ljava/lang/Object;,181/182
+     [java] 2799 1.0 org.apache.commons.collections.map.AbstractHashedMap.HashEntry,getValue()Ljava/lang/Object;,1045/1045
+     [java] 2798 1.0 org.apache.commons.collections.map.AbstractHashedMap,get(Ljava/lang/Object;)Ljava/lang/Object;,186/186
+     [java] 2797 1.0 org.apache.commons.collections.map.AbstractHashedMap,isEqualKey(Ljava/lang/Object;Ljava/lang/Object;)Z,391/391
+     [java] 2796 1.0 org.apache.commons.collections.map.AbstractHashedMap,get(Ljava/lang/Object;)Ljava/lang/Object;,185/185
+     [java] 2795 1.0 org.apache.commons.collections.map.AbstractHashedMap,get(Ljava/lang/Object;)Ljava/lang/Object;,183/184
+     [java] 2794 1.0 org.apache.commons.collections.map.AbstractHashedMap,get(Ljava/lang/Object;)Ljava/lang/Object;,182/183
+     [java] 2769 1.0 org.apache.commons.collections.map.CaseInsensitiveMap,<init>()V,70/70
+     [java] 2768 1.0 org.apache.commons.collections.map.AbstractHashedMap,<init>(IFI)V,119/119
+
+BUILD SUCCESSFUL
+Total time: 10 seconds

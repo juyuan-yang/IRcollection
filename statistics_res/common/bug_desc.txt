@@ -1,0 +1,2 @@
+f1 description
+The API would look inconsistent if CollectionUtils.isEmpty(null) == true CollectionUtils.size(null) == 0 but CollectionUtils.sizeIsEmpty(null) throws IAE. CollectionUtils.size(null) should return 0

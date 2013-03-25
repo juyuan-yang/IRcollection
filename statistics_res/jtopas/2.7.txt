@@ -1,0 +1,95 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/jtopas/src/v2_f7.zip into /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [javac] Compiling 21 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src/v2/src/de/susebox/java/util/AbstractTokenizer.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 29 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Compiling 16 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 38 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/traces/jtopas/f7/failed
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/traces/jtopas/f7/passed
+     [echo] About to invoke InsECTJ...
+     [java] Valid arguments are: [first|last]?[localvars]? for adding the probes at the first or the last instruction in each block
+     [java] THIS IS A TEST FAILURE: 
+     [java] Invalid read position 0 below the current text window start 0.
+     [java] de.susebox.java.lang.ExtIndexOutOfBoundsException: Invalid read position 0 below the current text window start 0.
+     [java] 	at de.susebox.java.util.AbstractTokenizer.setReadPositionAbsolute(AbstractTokenizer.java:658)
+     [java] 	at de.susebox.java.util.AbstractTokenizer.setReadPositionRelative(AbstractTokenizer.java:679)
+     [java] 	at de.susebox.java.util.TestTextAccess.testSetReadPos(TestTextAccess.java:231)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.teststats.runner.JTopasNNTestRunner.main(JTopasNNTestRunner.java:52)
+
+     [java] de.susebox.java.lang.ExtIndexOutOfBoundsException: Invalid read position 0 below the current text window start 0.
+     [java] 67604
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 558 1.0 de.susebox.java.util.AbstractTokenizer,setReadPositionAbsolute(I)V,658/658
+     [java] 559 1.0 de.susebox.java.lang.ExtIndexOutOfBoundsException,getMessage()Ljava/lang/String;,-1/-1
+     [java] 556 1.0 de.susebox.java.util.AbstractTokenizer,setReadPositionRelative(I)V,679/679
+     [java] 557 1.0 de.susebox.java.util.AbstractTokenizer,setReadPositionAbsolute(I)V,654/654
+     [java] 566 1.0 de.susebox.java.lang.ThrowableMessageFormatter,<clinit>()V,136/136
+     [java] 577 0.7071067811865475 de.susebox.java.lang.ExtIndexOutOfBoundsException,getArguments()[Ljava/lang/Object;,124/124
+     [java] 560 0.7071067811865475 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/String;[Ljava/lang/Object;)V,186/186
+     [java] 564 0.7071067811865475 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/String;[Ljava/lang/Object;)V,187/187
+     [java] 548 0.5 de.susebox.java.util.InputStreamTokenizer,<init>()V,96/96
+     [java] 547 0.5 de.susebox.java.util.InputStreamTokenizer,<init>()V,95/95
+     [java] 571 0.5 de.susebox.java.lang.ExtIndexOutOfBoundsException,getFormat()Ljava/lang/String;,113/113
+     [java] 574 0.5 de.susebox.java.lang.ExtIndexOutOfBoundsException,nextThrowable()Ljava/lang/Throwable;,64/64
+     [java] 565 0.5 de.susebox.java.lang.ExtIndexOutOfBoundsException,getMessage()Ljava/lang/String;,226/226
+     [java] 563 0.5 de.susebox.java.lang.ExtIndexOutOfBoundsException,<init>(Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V,206/210
+     [java] 570 0.4082482904638631 de.susebox.java.lang.ThrowableMessageFormatter,getMessage(Lde/susebox/java/lang/ThrowableList;)Ljava/lang/String;,103/104
+     [java] 575 0.4082482904638631 de.susebox.java.lang.ThrowableMessageFormatter,getMessage(Lde/susebox/java/lang/ThrowableList;)Ljava/lang/String;,106/109
+     [java] 572 0.4082482904638631 de.susebox.java.lang.ThrowableMessageFormatter,getMessage(Lde/susebox/java/lang/ThrowableList;)Ljava/lang/String;,104/105
+     [java] 573 0.4082482904638631 de.susebox.java.lang.ThrowableMessageFormatter,getMessage(Lde/susebox/java/lang/ThrowableList;)Ljava/lang/String;,105/106
+     [java] 578 0.4082482904638631 de.susebox.java.lang.ThrowableMessageFormatter,getMessage(Lde/susebox/java/lang/ThrowableList;)Ljava/lang/String;,121/123
+     [java] 579 0.4082482904638631 de.susebox.java.lang.ThrowableMessageFormatter,getMessage(Lde/susebox/java/lang/ThrowableList;)Ljava/lang/String;,126/126
+
+BUILD SUCCESSFUL
+Total time: 1 minute 19 seconds

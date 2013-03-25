@@ -1,0 +1,52 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/common/src/apache_common_collection_3.2.1.zip into /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [javac] Compiling 273 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 13 files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Compiling 194 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 195 files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [copy] Copied 1 empty directory to 1 empty directory under /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 907 1.0 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,474/475
+     [java] 904 1.0 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,407/407
+     [java] 906 1.0 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,474/474
+     [java] 905 1.0 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,473/473
+     [java] 914 0.7071067811865475 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,497/505
+     [java] 910 0.7071067811865475 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,518/526
+     [java] 911 0.7071067811865475 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,477/477
+     [java] 912 0.7071067811865475 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,485/485
+     [java] 913 0.7071067811865475 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,496/496
+     [java] 908 0.7071067811865475 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,509/509
+     [java] 909 0.7071067811865475 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,517/517
+     [java] 903 0.6324555320336759 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,404/404
+     [java] 902 0.5 org.apache.commons.collections.map.Flat3Map,remove(Ljava/lang/Object;)Ljava/lang/Object;,401/401
+     [java] 797 0.13801311186847084 org.apache.commons.collections.map.Flat3Map,put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,320/323
+     [java] 796 0.13801311186847084 org.apache.commons.collections.map.Flat3Map,put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,320/320
+     [java] 795 0.13801311186847084 org.apache.commons.collections.map.Flat3Map,put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,299/299
+     [java] 794 0.13801311186847084 org.apache.commons.collections.map.Flat3Map,put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,284/285
+     [java] 793 0.13801311186847084 org.apache.commons.collections.map.Flat3Map,put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,284/284
+     [java] 792 0.13801311186847084 org.apache.commons.collections.map.Flat3Map,put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,325/331
+     [java] 790 0.13801311186847084 org.apache.commons.collections.map.Flat3Map,put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,309/309
+
+BUILD SUCCESSFUL
+Total time: 12 seconds

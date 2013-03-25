@@ -1,0 +1,52 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/common/src/apache_common_collection_3.2.1.zip into /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [javac] Compiling 273 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 13 files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Compiling 194 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 195 files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [copy] Copied 1 empty directory to 1 empty directory under /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 913 1.0 org.apache.commons.collections.ListUtils,fixedSizeList(Ljava/util/List;)Ljava/util/List;,53/46
+     [java] 920 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,78/78
+     [java] 923 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,83/83
+     [java] 921 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,79/79
+     [java] 922 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,79/75
+     [java] 919 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,76/78
+     [java] 918 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,76/76
+     [java] 914 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,72/72
+     [java] 915 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,72/73
+     [java] 916 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,73/75
+     [java] 917 0.5 org.apache.commons.collections.ListUtils,intersection(Ljava/util/List;Ljava/util/List;)Ljava/util/List;,75/75
+     [java] 3280 0.0 null,remove(Ljava/lang/Object;)Z,567/567
+     [java] 3282 0.0 org.apache.commons.collections.SequencedHashMap,hashCode()I,529/529
+     [java] 3281 0.0 org.apache.commons.collections.SequencedHashMap,isEmpty()Z,247/247
+     [java] 3284 0.0 org.apache.commons.collections.SequencedHashMap,equals(Ljava/lang/Object;)Z,516/516
+     [java] 3283 0.0 org.apache.commons.collections.SequencedHashMap,equals(Ljava/lang/Object;)Z,514/514
+     [java] 3286 0.0 org.apache.commons.collections.SequencedHashMap,equals(Ljava/lang/Object;)Z,522/522
+     [java] 3285 0.0 org.apache.commons.collections.SequencedHashMap,equals(Ljava/lang/Object;)Z,519/519
+     [java] 3288 0.0 null,isEmpty()Z,578/578
+     [java] 3287 0.0 null,isEmpty()Z,675/675
+
+BUILD SUCCESSFUL
+Total time: 11 seconds

@@ -1,0 +1,95 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/jtopas/src/v2_f10.zip into /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [javac] Compiling 21 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src/v2/src/de/susebox/java/util/AbstractTokenizer.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 30 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Compiling 16 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 38 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/traces/jtopas/f10/failed
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/traces/jtopas/f10/passed
+     [echo] About to invoke InsECTJ...
+     [java] Valid arguments are: [first|last]?[localvars]? for adding the probes at the first or the last instruction in each block
+     [java] THIS IS A TEST FAILURE: 
+     [java] Retrieved unexpected token "A" instead of "A".
+     [java] junit.framework.AssertionFailedError: Retrieved unexpected token "A" instead of "A".
+     [java] 	at junit.framework.Assert.fail(Assert.java:50)
+     [java] 	at junit.framework.Assert.assertTrue(Assert.java:20)
+     [java] 	at de.susebox.java.util.TestTextAccess.testSetReadPos(TestTextAccess.java:234)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.teststats.runner.JTopasNNTestRunner.main(JTopasNNTestRunner.java:52)
+
+     [java] junit.framework.AssertionFailedError: Retrieved unexpected token "A" instead of "A".
+     [java] 86438
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 558 1.0 de.susebox.java.util.AbstractTokenizer,setReadPositionAbsolute(I)V,1349/1349
+     [java] 559 1.0 de.susebox.java.util.AbstractTokenizer,setReadPositionAbsolute(I)V,1355/1356
+     [java] 556 1.0 de.susebox.java.util.AbstractTokenizer,setReadPositionRelative(I)V,1379/1379
+     [java] 557 1.0 de.susebox.java.util.AbstractTokenizer,setReadPositionAbsolute(I)V,1344/1344
+     [java] 560 1.0 de.susebox.java.util.AbstractTokenizer,setReadPositionAbsolute(I)V,1357/1357
+     [java] 565 1.0 de.susebox.java.util.Token,equals(Ljava/lang/Object;)Z,120/120
+     [java] 561 1.0 de.susebox.java.util.AbstractTokenizer,setReadPositionRelative(I)V,1380/1380
+     [java] 562 1.0 de.susebox.java.util.Token,equals(Ljava/lang/Object;)Z,115/115
+     [java] 563 1.0 de.susebox.java.util.Token,equals(Ljava/lang/Object;)Z,117/117
+     [java] 564 1.0 de.susebox.java.util.Token,equals(Ljava/lang/Object;)Z,119/119
+     [java] 548 0.5 de.susebox.java.util.InputStreamTokenizer,<init>()V,96/96
+     [java] 547 0.5 de.susebox.java.util.InputStreamTokenizer,<init>()V,95/95
+     [java] 525 0.23570226039551587 de.susebox.java.util.AbstractTokenizer,current()Ljava/lang/String;,1122/1122
+     [java] 110 0.19245008972987526 de.susebox.java.util.SortedArray,searchIndex(C[I)I,2495/2499
+     [java] 80 0.19245008972987526 de.susebox.java.util.AbstractTokenizer,addSpecialSequence(Lde/susebox/java/util/TokenizerProperty;)V,1643/1645
+     [java] 75 0.19245008972987526 de.susebox.java.util.AbstractTokenizer,addSpecialSequence(Lde/susebox/java/util/TokenizerProperty;)V,1642/1642
+     [java] 76 0.19245008972987526 de.susebox.java.util.AbstractTokenizer,addSpecialSequence(Lde/susebox/java/util/TokenizerProperty;)V,1643/1643
+     [java] 109 0.19245008972987526 de.susebox.java.util.SortedArray,searchIndex(C[I)I,2495/2495
+     [java] 69 0.1889822365046136 de.susebox.java.util.AbstractTokenizer,addString(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V,258/258
+     [java] 68 0.1889822365046136 de.susebox.java.util.AbstractTokenizer,addString(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V,234/234
+
+BUILD SUCCESSFUL
+Total time: 1 minute 49 seconds

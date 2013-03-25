@@ -1,0 +1,122 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/jtopas/src/v1_f1.zip into /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src
+    [javac] Compiling 19 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Note: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src/v1/src/de/susebox/java/util/AbstractTokenizer.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src/v1/src/de/susebox/java/util/AbstractTokenizer.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 15 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/src_bin
+    [javac] Compiling 15 source files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 37 files to /home/yjy/workspace/IR/statistics_res/jtopas/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+     [echo] About to invoke InsECTJ...
+     [java] Valid arguments are: [first|last]?[localvars]? for adding the probes at the first or the last instruction in each block
+     [java] THIS IS A TEST FAILURE: 
+     [java] ex1: Format not found.
+     [java] junit.framework.AssertionFailedError: ex1: Format not found.
+     [java] 	at junit.framework.Assert.fail(Assert.java:50)
+     [java] 	at junit.framework.Assert.assertTrue(Assert.java:20)
+     [java] 	at de.susebox.TestExceptions.testNestedExceptions(TestExceptions.java:217)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.teststats.runner.JTopasNNTestRunner.main(JTopasNNTestRunner.java:52)
+
+     [java] junit.framework.AssertionFailedError: ex1: Format not found.
+     [java] THIS IS A TEST FAILURE: 
+     [java] Format not found.
+     [java] junit.framework.AssertionFailedError: Format not found.
+     [java] 	at junit.framework.Assert.fail(Assert.java:50)
+     [java] 	at junit.framework.Assert.assertTrue(Assert.java:20)
+     [java] 	at de.susebox.TestExceptions.testMessageFormatting(TestExceptions.java:235)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [java] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+     [java] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+     [java] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+     [java] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+     [java] 	at junit.framework.TestResult.run(TestResult.java:113)
+     [java] 	at junit.framework.TestCase.run(TestCase.java:124)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+     [java] 	at junit.framework.TestSuite.run(TestSuite.java:238)
+     [java] 	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+     [java] 	at org.junit.runners.Suite.runChild(Suite.java:24)
+     [java] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+     [java] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+     [java] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+     [java] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+     [java] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+     [java] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+     [java] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+     [java] 	at edu.gatech.ir.teststats.runner.JTopasNNTestRunner.main(JTopasNNTestRunner.java:52)
+
+     [java] junit.framework.AssertionFailedError: Format not found.
+     [java] 71357
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 689 1.0 de.susebox.java.io.ExtIOException,getFormat()Ljava/lang/String;,15/15
+     [java] 688 1.0 de.susebox.java.io.ExtIOException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,48/53
+     [java] 680 0.8164965809277261 de.susebox.java.io.ExtIOException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,31/31
+     [java] 681 0.8164965809277261 de.susebox.java.io.ExtIOException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,62/38
+     [java] 691 0.7071067811865475 de.susebox.java.io.ExtIOException,<init>(Ljava/lang/String;[Ljava/lang/Object;)V,29/29
+     [java] 690 0.7071067811865475 de.susebox.java.io.ExtIOException,<init>(Ljava/lang/String;[Ljava/lang/Object;)V,28/28
+     [java] 686 0.5 de.susebox.java.io.ExtIOException,nextException()Ljava/lang/Exception;,9/9
+     [java] 682 0.5 de.susebox.java.io.ExtIOException,<init>(Ljava/lang/Exception;Ljava/lang/String;[Ljava/lang/Object;)V,38/38
+     [java] 685 0.5 de.susebox.java.io.ExtIOException,isWrapperException()Z,12/12
+     [java] 338 0.0 de.susebox.java.util.AbstractTokenizer,completeSpecialSequence(Lde/susebox/java/util/Token;)V,1932/1934
+     [java] 339 0.0 de.susebox.java.util.AbstractTokenizer,completeSpecialSequence(Lde/susebox/java/util/Token;)V,1934/1934
+     [java] 332 0.0 de.susebox.java.util.AbstractTokenizer,test4SpecialSequence(Lde/susebox/java/util/Token;)Z,1908/1910
+     [java] 333 0.0 de.susebox.java.util.AbstractTokenizer,test4SpecialSequence(Lde/susebox/java/util/Token;)Z,1911/1911
+     [java] 159 0.0 de.susebox.java.util.SortedArray,searchBinary(Ljava/lang/String;IZ)Lde/susebox/java/util/TokenizerProperty;,2516/2516
+     [java] 330 0.0 de.susebox.java.util.AbstractTokenizer,isSequenceCommentOrString(I)Lde/susebox/java/util/TokenizerProperty;,1531/1524
+     [java] 158 0.0 de.susebox.java.util.SortedArray,searchBinary(Ljava/lang/String;IZ)Lde/susebox/java/util/TokenizerProperty;,2514/2516
+     [java] 331 0.0 de.susebox.java.util.AbstractTokenizer,isSequenceCommentOrString(I)Lde/susebox/java/util/TokenizerProperty;,1535/1535
+     [java] 336 0.0 de.susebox.java.util.Token,getCompanion()Ljava/lang/Object;,211/211
+     [java] 157 0.0 de.susebox.java.util.SortedArray,searchBinary(Ljava/lang/String;IZ)Lde/susebox/java/util/TokenizerProperty;,2514/2514
+     [java] 337 0.0 de.susebox.java.util.AbstractTokenizer,completeSpecialSequence(Lde/susebox/java/util/Token;)V,1931/1932
+
+BUILD SUCCESSFUL
+Total time: 1 minute 22 seconds

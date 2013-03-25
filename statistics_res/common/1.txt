@@ -1,0 +1,52 @@
+Buildfile: script.xml
+
+init:
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+   [delete] Deleting directory /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [mkdir] Created dir: /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+
+jtopas:
+    [unzip] Expanding: /home/yjy/workspace/IR/statistics_res/common/src/apache_common_collection_3.2.1.zip into /home/yjy/workspace/IR/statistics_res/common/tmp/src
+    [javac] Compiling 273 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 13 files to /home/yjy/workspace/IR/statistics_res/common/tmp/src_bin
+    [javac] Compiling 194 source files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 195 files to /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [copy] Copied 1 empty directory to 1 empty directory under /home/yjy/workspace/IR/statistics_res/common/tmp/test_bin
+     [echo]  Generate the configuration file for InsECTJ 
+     [echo]  Perform the statistics debugging...Ochiai 
+     [java] 425 0.7071067811865475 org.apache.commons.collections.CollectionUtils,sizeIsEmpty(Ljava/lang/Object;)Z,958/958
+     [java] 424 0.5773502691896258 org.apache.commons.collections.CollectionUtils,sizeIsEmpty(Ljava/lang/Object;)Z,957/957
+     [java] 421 0.5 org.apache.commons.collections.CollectionUtils,sizeIsEmpty(Ljava/lang/Object;)Z,955/955
+     [java] 420 0.4472135954999579 org.apache.commons.collections.CollectionUtils,sizeIsEmpty(Ljava/lang/Object;)Z,953/953
+     [java] 418 0.4082482904638631 org.apache.commons.collections.CollectionUtils,sizeIsEmpty(Ljava/lang/Object;)Z,951/951
+     [java] 417 0.3779644730092272 org.apache.commons.collections.CollectionUtils,sizeIsEmpty(Ljava/lang/Object;)Z,949/949
+     [java] 416 0.35355339059327373 org.apache.commons.collections.CollectionUtils,sizeIsEmpty(Ljava/lang/Object;)Z,947/947
+     [java] 3280 0.0 null,isEmpty()Z,627/627
+     [java] 3282 0.0 org.apache.commons.collections.SequencedHashMap.Entry,toString()Ljava/lang/String;,130/130
+     [java] 3281 0.0 org.apache.commons.collections.SequencedHashMap.Entry,hashCode()I,111/111
+     [java] 3284 0.0 org.apache.commons.collections.SequencedHashMap.OrderedIterator,next()Ljava/lang/Object;,772/772
+     [java] 3283 0.0 null,contains(Ljava/lang/Object;)Z,581/581
+     [java] 3286 0.0 org.apache.commons.collections.SequencedHashMap,equals(Ljava/lang/Object;)Z,520/520
+     [java] 3285 0.0 org.apache.commons.collections.SequencedHashMap,equals(Ljava/lang/Object;)Z,515/515
+     [java] 3288 0.0 org.apache.commons.collections.SequencedHashMap,toString()Ljava/lang/String;,540/541
+     [java] 3287 0.0 org.apache.commons.collections.SequencedHashMap,toString()Ljava/lang/String;,540/540
+     [java] 3278 0.0 null,isEmpty()Z,578/578
+     [java] 531 0.0 org.apache.commons.collections.CollectionUtils,collect(Ljava/util/Collection;Lorg/apache/commons/collections/Transformer;)Ljava/util/Collection;,574/574
+     [java] 530 0.0 org.apache.commons.collections.CollectionUtils,transform(Ljava/util/Collection;Lorg/apache/commons/collections/Transformer;)V,437/437
+     [java] 3279 0.0 null,iterator()Ljava/util/Iterator;,594/594
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
